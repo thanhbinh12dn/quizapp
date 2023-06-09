@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 async function connect() {
   try {
     await mongoose.connect(
-      "mongodb+srv://quizapp:M71RKS0fUzS0JB8b@quizapp.xt5jcj1.mongodb.net/?authSource=quizapp&authMechanism=SCRAM-SHA-1"
+      "mongodb+srv://be-quizapp:SbQvqUdaZjSuHCCM@be-quizapp.icpu7lx.mongodb.net/?authSource=be-quizapp&authMechanism=SCRAM-SHA-1"
     );
     console.log("Connect Successfully!!");
   } catch (error) {
