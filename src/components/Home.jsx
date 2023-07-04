@@ -15,7 +15,7 @@ const Home = () => {
   useEffect(() => {
     async function fetchQuestion() {
       try {
-        const url = "http://localhost:3001/question/";
+        const url = "https://quizapp-be.vercel.app/question/";
         const response = await fetch(url);
         const responseJSON = await response.json();
 
